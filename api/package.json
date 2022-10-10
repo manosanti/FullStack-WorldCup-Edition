@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "FullStack-WorldCup-Edition"
+  },
+  "author": {
+    "name": "Lucas Santiago",
+    "email": "luccassantiago.contato@gmail.com"
+  },
+  "license": "MIT"
+}
