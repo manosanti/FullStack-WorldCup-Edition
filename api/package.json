@@ -1,16 +1,29 @@
 {
   "name": "api",
   "version": "0.0.0",
-  "main": "index.js",
-  "scripts": {
-  },
+  "main": "server.js",
+  "type": "module",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "FullStack-WorldCup-Edition"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   },
   "author": {
     "name": "Lucas Santiago",
     "email": "luccassantiago.contato@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "3.4.1",
+    "@koa/router": "^12.0.0",
+    "@prisma/client": "^4.4.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.4.0"
+  }
 }
